@@ -19,8 +19,34 @@ body {
     margin-top: -10px;
 }
 
+/* Navigation */
+.header nav {
+    margin-left: auto;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.menu-link {
+    display: block;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
